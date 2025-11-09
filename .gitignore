@@ -1,0 +1,37 @@
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# venvs
+venv/
+.venv/
+env/
+ENV/
+
+# jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# logs / artifacts
+logs/
+outputs/
+checkpoints/
+models/
+data/
+
+# docker
+*.log
