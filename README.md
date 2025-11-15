@@ -265,11 +265,22 @@ This environment is suitable for:
 - Research on RL for **non-stationary control** and **AI for marketing budget allocation** 
 - Evaluation of recurrent vs feed-forward agents  
 - Simulating realistic digital advertising constraints  
-- Teaching pacing, synergy, diminishing returns, lagged feedback  
+- Teaching pacing, synergy, diminishing returns, lagged feedback
 
 ---
 
-# 7. References (Mostly Non-Paywalled)
+# 7. Future Plans
+
+I intend to add these in upcoming versions:
+- Choosing the actual fraction of budget per day to allocate (instead of fixed daily budget), given a total budget for the episode
+- Currently only efficiency and drift coeffecients are per-channel. I plan to add other coefficients like adstock lag, hill-curve exponent etc per channel as well
+- Capturing more non-linear dependencies between channels instead of just linear correlation as done currently
+
+Please support by rating my GitHub.
+
+---
+
+# 8. References (Mostly Non-Paywalled)
 
 - Broadbent, S. (1979). *One Way TV Advert Works.*  
 - Microsoft/Atlas Research: *Why Advertising Response Curves Matter.*  
