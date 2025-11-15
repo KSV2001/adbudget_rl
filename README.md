@@ -73,12 +73,9 @@ State vector contains:
 
 2. **Spend history** of last $H$ days  
 3. **Noisy ROI history** of last $H$ days  
-4. **Normalized time index**  
-   $$\frac{t}{T}$$
+4. **Normalized time index**  $$\frac{t}{T}$$
 
-Total dimension:
-
-$$1 + HN + HN + 1$$
+Total dimension: $$1 + HN + HN + 1$$
 
 ---
 
