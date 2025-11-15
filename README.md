@@ -208,7 +208,7 @@ $$B_{\text{ideal}}(t) = 1 - \frac{t}{T}$$
 
 Penalty term:
 
-$$\text{pacing{\_}pen}_t = -w_{\text{pace}} \left( \frac{B_{\text{remaining}}}{B} - B_{\text{ideal}}(t) \right)^2$$
+$$\text{pacing pen}_t = -w_{\text{pace}} \left( \frac{B_{\text{remaining}}}{B} - B_{\text{ideal}}(t) \right)^2$$
 
 **Citation**
 
@@ -232,7 +232,7 @@ $$-r_{\text{smooth}} \cdot \text{smooth}_t$$
 
 All components combine to:
 
-$$\text{Reward}_t = \underbrace{\sum_i R_{t,i}}_{\text{Channel ROI}} + \underbrace{s_t^\top C s_t}_{\text{Synergy}} + \underbrace{\text{pacing\_pen}_t}_{\text{Budget Pacing}} - \underbrace{\text{smooth\_pen}\,\|\pi_t-\pi_{t-1}\|_2}_{\text{Stability}} + \underbrace{\epsilon}_{\text{Noise}}$$
+$$\text{Reward}_t = \underbrace{\sum_i R_{t,i}}_{\text{Channel ROI}} + \underbrace{s_t^\top C s_t}_{\text{Synergy}} + \underbrace{\text{pacing pen}_t}_{\text{Budget Pacing}} - \underbrace{\text{smooth pen}\,\|\pi_t-\pi_{t-1}\|_2}_{\text{Stability}} + \underbrace{\epsilon}_{\text{Noise}}$$
 
 This produces a **realistic noisy, nonlinear, non-stationary, delayed-feedback RL problem**.
 
