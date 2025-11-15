@@ -31,7 +31,7 @@ rppo_adbudget_lstm.zip,
 env_kwargs.json**
 
 
-These are loaded directly by the notebook and evaluation scripts.
+These are loaded directly by the notebook.
 
 ---
 
