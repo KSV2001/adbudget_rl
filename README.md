@@ -2,7 +2,7 @@
 
 A fully custom Gymnasium environment that models **real-world multi-channel advertising**, including adstock carry-over, saturation (Hill curves), cross-channel synergy, pacing constraints, non-stationary drift, and attribution noise.  
 Supports **PPO**, **Recurrent PPO (LSTM)**, and baseline evaluation.  
-Designed for benchmarking RL algorithms on **noisy, nonlinear, delayed, non-stationary** control problems.
+Designed for demonstrating RL algorithms on **noisy, nonlinear, delayed, non-stationary** control problems.
 
 ---
 
