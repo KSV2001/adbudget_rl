@@ -208,7 +208,7 @@ $$B_{\text{ideal}}(t) = 1 - \frac{t}{T}$$
 
 Penalty term:
 
-$$\text{pacing\_pen}_t = -w_{\text{pace}} \left( \frac{B_{\text{remaining}}}{B} - B_{\text{ideal}}(t) \right)^2$$
+$$\text{pacing{\_}pen}_t = -w_{\text{pace}} \left( \frac{B_{\text{remaining}}}{B} - B_{\text{ideal}}(t) \right)^2$$
 
 **Citation**
 
