@@ -24,10 +24,10 @@ This notebook includes:
 
 All models and normalization statistics are automatically saved under: 
 **src/assets/
-vecnorm.pkl
-vecnorm_lstm.pkl
-ppo_adbudget.zip
-rppo_adbudget_lstm.zip
+vecnorm.pkl, 
+vecnorm_lstm.pkl,
+ppo_adbudget.zip,
+rppo_adbudget_lstm.zip,
 env_kwargs.json**
 
 
